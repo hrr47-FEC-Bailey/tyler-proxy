@@ -1,0 +1,23 @@
+{
+  "name": "tyler-proxy",
+  "version": "1.0.0",
+  "description": "proxy-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrr47-FEC-Bailey/tyler-proxy.git"
+  },
+  "author": "Tyler Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrr47-FEC-Bailey/tyler-proxy/issues"
+  },
+  "homepage": "https://github.com/hrr47-FEC-Bailey/tyler-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
