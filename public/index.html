@@ -1,21 +1,40 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="sylesheet" href="/styles.css">
     <title>Steam Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <div id="MediaWindow"></div>
-    <div id="PurchaseOptions"></div>
-    <div id="SimiliarGames"></div>
-    <div id="Reviews"></div>
-    <script src="/lib/react.development.js"></script>
-    <script src="/lib/react-dom.development.js"></script>
+    <div class="game-content-wrapper">
+        <div id="media-window"></div>
+        <div class="content-spacer"></div>
+        <div class="column-wrapper">
+          <div class="right-col">
+            <div id="game-sidebar"></div>
+          </div>
+          <div class ="left-col">
+            <div id="purchase-options"></div>
+            <div class="left-column-spacer"></div>
+            <div id="game-description"></div>
+            <div class="left-column-spacer"></div>
+            <div id ="similar-games"></div>
+          </div>
+        </div>
+      <div class="content-spacer"></div>
+      <div class="review-content-wrapper">
+      <div id="reviews"></div>
+      </div>
+    </div>
+
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="http://localhost:3001/bundle.js"></script>
     <script src="http://localhost:3002/bundle.js"></script>
-    <script> src="http://localhost:3003/bundle.js"</script>
-    <script> src="http://localhost:3004/bundle.js"</script>
-
+    <script src="http://localhost:3003/bundle.js"></script>
+    <script src="http://localhost:3004/bundle.js"></script>
+    <script src="http://localhost:3005/bundle.js"></script>
+    <script src="http://localhost:3006/bundle.js"></script>
   </body>
 </html>
